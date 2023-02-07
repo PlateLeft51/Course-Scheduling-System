@@ -1,0 +1,824 @@
+﻿body {
+    margin: 0px;
+}
+
+.win-background {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    background: #30305550;
+    
+}
+.win-bottom {
+    background: #ECF5FF;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.win-password-content {
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    background: #fff;
+    width: 27%;
+    height: 47%;
+    border-radius: 10px;
+    margin: 5% auto;
+    box-shadow: 0 0 5px #909090;
+}
+
+.win-course-content {
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    width: 35%;
+    height: 60%;
+}
+.win-input-view {
+    border: 1px solid #D0D0D0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    height: 30px;
+    width: 465px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+    .win-input-view:focus {
+        border: 2px solid #ACD6FF;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 30px;
+        width: 465px;
+    }
+
+.win-select-view {
+    height: 30px;
+    border: 1px solid #D0D0D0;
+    border-radius:4px;
+    outline: none;
+    background: white;
+    align-self: center;
+    text-align: center;
+    text-align-last: center;
+    font-size: 16px;
+}
+#header {
+    height: 40px;
+}
+
+#header-right {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+}
+
+.win-password-title{
+    position:absolute;
+    top:280px;
+    left:750px;
+    width:300px;
+}
+
+.win-password-border {
+    position: absolute;
+    top: 320px;
+    left: 720px;
+    width:480px;
+
+}
+
+.win-password-pos1 {
+    position: absolute;
+    top: 340px;
+    left: 700px;
+}
+.win-password-pos2 {
+    position: absolute;
+    top: 340px;
+    left: 900px;
+}
+.win-password-pos3 {
+    position: absolute;
+    top: 390px;
+    left: 760px;
+    height: 30px;
+    width: 380px;
+    text-align: left;
+    padding-left: 20px;
+}
+    .win-password-pos3:focus {
+        width: 380px;
+        text-align: left;
+    }
+
+.win-password-pos4 {
+    position: absolute;
+    top: 410px;
+    left: 700px;
+}
+
+.win-password-pos5 {
+    position: absolute;
+    top: 410px;
+    left: 900px;
+}
+.win-password-pos6 {
+    position: absolute;
+    top: 460px;
+    left: 760px;
+    height: 30px;
+    width: 380px;
+    text-align:left;
+    padding-left:20px;
+}
+    .win-password-pos6:focus {
+        width: 380px;
+        text-align: left;
+    }
+
+.win-password-pos7 {
+    position: absolute;
+    top: 480px;
+    left: 700px;
+}
+
+.win-password-pos8 {
+    position: absolute;
+    top: 480px;
+    left: 900px;
+}
+.win-password-pos9 {
+    position: absolute;
+    top: 530px;
+    left: 760px;
+    height: 30px;
+    width: 380px;
+    text-align: left;
+    padding-left: 20px;
+}
+    .win-password-pos9:focus {
+        width: 380px;
+        text-align: left;
+    }
+.win-password-pos10 {
+    position: absolute;
+    top: 640px;
+    left: 1070px;
+    height: 30px;
+    width: 50px;
+}
+.win-password-pos11 {
+    position: absolute;
+    top: 640px;
+    left: 1140px;
+    height: 30px;
+    width: 50px;
+}
+.win-password-pos12 {
+    position: absolute;
+    top: 630px;
+    left: 700px;
+    height: 60px;
+    width: 518px;
+}
+
+.win-notice-pos1 {
+    position: absolute;
+    top: 350px;
+    left: 755px;
+}
+.win-notice-pos2 {
+    position: absolute;
+    top: 375px;
+    left: 700px;
+}
+.win-notice-pos3 {
+    position: absolute;
+    top: 375px;
+    left: 780px;
+}
+.win-notice-pos4 {
+    position: absolute;
+    top: 440px;
+    left: 760px;
+    width:380px;
+    line-height:27px;
+}
+
+.win-notice-pos5 {
+    position: absolute;
+    top: 25px;
+    left: 640px;
+    width: 35%;
+    height: 60%;
+
+}
+
+.win-notice-pos6 {
+    position:absolute;
+    top:155px;
+    left:675px;
+}
+.win-notice-pos7 {
+    position:absolute;
+    top:200px;
+    left:670px;
+    width:600px;
+}
+.win-notice-pos8 {
+    position:absolute;
+    top:220px;
+    left:685px;
+}
+.win-notice-pos9 {
+    position:absolute;
+    top:220px;
+    left:765px;
+    
+}
+.win-notice-pos10 {
+    position:absolute;
+    top:270px;
+    left:683px;
+}
+.win-notice-pos11 {
+    position:absolute;
+    top:270px;
+    left:765px;
+    width:195px;
+}
+.win-notice-pos12 {
+    position: absolute;
+    top: 320px;
+    left: 685px;
+}
+.win-notice-pos13 {
+    position: absolute;
+    top: 325px;
+    left: 765px;
+    height: 235px;
+    width: 470px;
+    text-align:left;
+    padding-top:10px;
+    padding-left:10px;
+    resize:none;
+    font-family:Arial;
+    line-height:25px;
+}
+    .win-notice-pos13:focus {
+        height: 235px;
+        width: 470px;
+        text-align: left;
+    }
+.win-notice-pos14 {
+    position:absolute;
+    top:622px;
+    left:640px;
+    height:65px;
+    width:672px;
+}
+.win-notice-pos15 {
+    position: absolute;
+    top: 635px;
+    left: 1160px;
+}
+.win-notice-pos16 {
+    position: absolute;
+    top: 635px;
+    left: 1230px;
+}
+
+.win-user-pos1 {
+    position:absolute;
+    top:0px;
+    left:615px;
+    width: 700px;
+    height: 665px;
+}
+.win-user-pos2 {
+    position:absolute;
+    top:125px;
+    left:650px;
+}
+.win-user-pos3 {
+    position: absolute;
+    top: 170px;
+    left: 645px;
+    width:650px;
+}
+.win-user-pos4 {
+    position: absolute;
+    top: 220px;
+    left: 660px;
+}
+.win-user-pos5 {
+    position: absolute;
+    top: 220px;
+    left: 760px;
+    width:150px;
+    padding-left:10px;
+    text-align:left;
+}
+.win-user-pos5:focus {
+    text-align: left;
+}
+.win-user-pos6 {
+    position: absolute;
+    top: 270px;
+    left: 660px;
+}
+.win-user-pos7 {
+    position: absolute;
+    top: 270px;
+    left: 760px;
+    width: 150px;
+    padding-left: 10px;
+    text-align: left;
+}
+.win-user-pos7:focus {
+    text-align: left;
+}
+.win-user-pos8 {
+    position: absolute;
+    top: 320px;
+    left: 660px;
+}
+.win-user-pos9 {
+    position: absolute;
+    top: 320px;
+    left: 760px;
+    width: 150px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.win-user-pos9:focus {
+    text-align: left;
+}
+.win-user-pos10 {
+    position: absolute;
+    top: 370px;
+    left: 660px;
+}
+.win-user-pos11 {
+    position: absolute;
+    top: 370px;
+    left: 760px;
+    width:162px;
+}
+.win-user-pos12 {
+    position: absolute;
+    top: 420px;
+    left: 660px;
+}
+.win-user-pos13 {
+    position: absolute;
+    top: 420px;
+    left: 760px;
+    width: 200px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+    .win-user-pos13:focus {
+        width: 200px;
+        text-align: left;
+    }
+
+.win-user-pos14 {
+    position: absolute;
+    top: 470px;
+    left: 660px;
+}
+.win-user-pos15 {
+    position: absolute;
+    top: 470px;
+    left: 760px;
+    width: 210px;
+}
+.win-user-pos16 {
+    position: absolute;
+    top: 520px;
+    left: 660px;
+}
+.win-user-pos17 {
+    position: absolute;
+    top: 520px;
+    left: 760px;
+    width: 210px;
+}
+.win-user-pos18 {
+    position: absolute;
+    top: 570px;
+    left: 660px;
+}
+.win-user-pos19 {
+    position: absolute;
+    top: 570px;
+    left: 760px;
+    width: 210px;
+}
+.win-user-pos20 {
+    position: absolute;
+    top: 620px;
+    left: 660px;
+}
+
+.win-user-pos21 {
+    position: absolute;
+    top: 620px;
+    left: 760px;
+    width: 250px;
+    padding-left: 10px;
+    text-align: left;
+}
+    .win-user-pos21:focus {
+        width: 250px;
+        text-align: left;
+    }
+.win-user-pos22 {
+    position: absolute;
+    top: 700px;
+    left: 615px;
+    height:60px;
+    width:700px;
+
+}
+.win-user-pos23 {
+    position: absolute;
+    top: 710px;
+    left: 1150px;
+}
+
+.win-user-pos24 {
+    position: absolute;
+    top: 710px;
+    left: 1220px;
+}
+.win-user-pos25 {
+    position: absolute;
+    top: 217px;
+    left: 950px;
+    width:100px;
+}
+.win-user-pos26 {
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    width: 1410px;
+    height: 665px;
+}
+.win-user-pos27 {
+    position: absolute;
+    top: 125px;
+    left: 300px;
+}
+
+.win-user-pos28 {
+    position: absolute;
+    top: 170px;
+    left: 285px;
+    width: 1350px;
+}
+.win-user-pos29 {
+    position: absolute;
+    top: 0px;
+    left: 235px;
+    width:1400px;
+}
+.win-user-pos30 {
+    position: absolute;
+    top: 700px;
+    left: 260px;
+    height: 60px;
+    width: 1410px;
+}
+.win-user-pos31 {
+    position: absolute;
+    top: 710px;
+    left: 1490px;
+}
+.win-user-pos32 {
+    position: absolute;
+    top: 710px;
+    left: 1560px;
+}
+.win-user-pos33 {
+    position: absolute;
+    top: 210px;
+    left: 300px;
+}
+.win-user-pos34{
+    position:absolute;
+    top:0px;
+    left:600px;
+    height:500px;
+    width:400px;
+}
+.win-user-pos35 {
+}
+.win-user-pos36 {
+}
+.win-user-pos37 {
+}
+.win-user-pos38 {
+
+}
+.win-user-pos39 {
+}
+win-course-length1 {
+    text-align: left;
+    width: 250px;
+}
+
+.win-course-length2 {
+    width: 250px;
+    padding-left:10px;
+    text-align: left;
+}
+    .win-course-length2:focus {
+        width: 250px;
+        text-align: left;
+    }
+.win-course-length3{
+    height:500px;
+    width:600px;
+}
+.win-course-length4 {
+    width:580px;
+}
+.win-course-length5 {
+    position:absolute;
+    top:540px;
+    width:600px;
+}
+.win-course-length6 {
+    position: absolute;
+    top: 550px;
+    left: 1040px;
+}
+.win-course-length7 {
+    position: absolute;
+    top: 550px;
+    left: 1110px;
+}
+.win-course-pos1 {
+    position: absolute;
+    margin-top:50px;
+    top:0px;
+    left: 250px;
+    width: 1430px;
+    height: 850px;
+}
+.win-course-pos2 {
+    position: absolute;
+    top: 80px;
+    left: 280px;
+}
+.win-course-pos3 {
+    position: absolute;
+    top: 120px;
+    left: 275px;
+    width:1390px;
+}
+.win-course-pos4 {
+    position: absolute;
+    top: 145px;
+    left: 320px;
+}
+.win-course-pos5 {
+    position: absolute;
+    top: 140px;
+    left: 400px;
+    width:160px;
+}
+.win-course-pos6 {
+    position: absolute;
+    top: 145px;
+    left: 620px;
+}
+.win-course-pos7 {
+    position: absolute;
+    top: 140px;
+    left: 700px;
+    width:160px;
+}
+.win-course-pos8 {
+    position: absolute;
+    top: 145px;
+    left: 920px;
+}
+.win-course-pos9 {
+    position: absolute;
+    top: 140px;
+    left: 1000px;
+    width:160px;
+}
+.win-course-pos10 {
+    position: absolute;
+    top: 145px;
+    left: 1220px;
+}
+.win-course-pos11 {
+    position: absolute;
+    top: 140px;
+    left: 1300px;
+    width:160px;
+}
+.win-course-pos12 {
+    position: absolute;
+    top: -50px;
+    left: 230px;
+    width: 1400px;
+}
+.win-course-pos13{
+    position:absolute;
+    top:840px;
+    left:250px;
+    height:60px;
+    width:1430px;
+}
+.win-course-pos14{
+    position:absolute;
+    top:855px;
+    left:1500px;
+}
+.win-course-pos15 {
+    position: absolute;
+    top: 855px;
+    left: 1570px;
+}
+.win-course-pos16 {
+    position: absolute;
+    top: 145px;
+    left: 1000px;
+    width: 160px;
+}
+.win-course-pos17 {
+    position: absolute;
+    top: 855px;
+    left: 1430px;
+}
+.win-course-pos18 {
+    position: absolute;
+    top: 855px;
+    left: 1500px;
+}
+.win-audit-pos1 {
+    position: absolute;
+    margin-top: 50px;
+    top: 0px;
+    left: 650px;
+    width: 630px;
+    height: 850px;
+}
+.win-audit-pos2 {
+    position: absolute;
+    top: 80px;
+    left: 680px;
+}
+.win-audit-pos3 {
+    position: absolute;
+    top: 120px;
+    left: 680px;
+    width:580px;
+}
+
+.win-audit-pos4 {
+    position: absolute;
+    top: 130px;
+    left: 650px;
+}
+.win-audit-pos5 {
+    position: absolute;
+    top: 180px;
+    left: 710px;
+}
+
+.win-audit-pos6 {
+    position: absolute;
+    top: 205px;
+    left: 650px;
+}
+.win-audit-pos7 {
+    position: absolute;
+    top: 255px;
+    left: 710px;
+}
+
+.win-audit-pos8 {
+    position: absolute;
+    top: 280px;
+    left: 650px;
+}
+.win-audit-pos9 {
+    position: absolute;
+    top: 330px;
+    left: 710px;
+}
+
+.win-audit-pos10 {
+    position: absolute;
+    top: 355px;
+    left: 650px;
+}
+.win-audit-pos11 {
+    position: absolute;
+    top: 405px;
+    left: 710px;
+}
+
+.win-audit-pos12 {
+    position: absolute;
+    top: 430px;
+    left: 650px;
+}
+
+.win-audit-pos13 {
+    position: absolute;
+    top: 480px;
+    left: 710px;
+}
+
+.win-audit-pos14 {
+    position: absolute;
+    top: 505px;
+    left: 650px;
+}
+
+.win-audit-pos15 {
+    position: absolute;
+    top: 555px;
+    left: 710px;
+}
+
+.win-audit-pos16 {
+    position: absolute;
+    top: 580px;
+    left: 650px;
+}
+
+.win-audit-pos17 {
+    position: absolute;
+    top: 630px;
+    left: 710px;
+}
+
+.win-audit-pos18 {
+    position: absolute;
+    top: 655px;
+    left: 650px;
+}
+
+.win-audit-pos19 {
+    position: absolute;
+    top: 705px;
+    left: 710px;
+}
+
+.win-audit-pos20 {
+    position: absolute;
+    top: 730px;
+    left: 650px;
+}
+.win-audit-pos21 {
+    position: absolute;
+    top: 780px;
+    left: 710px;
+}
+
+.win-audit-pos22 {
+    position: absolute;
+    top: 835px;
+    left: 650px;
+    height:65px;
+    width:630px;
+}
+
+.win-audit-pos23 {
+    position: absolute;
+    top: 850px;
+    left: 1130px;
+}
+
+.win-audit-pos24 {
+    position: absolute;
+    top: 850px;
+    left: 1200px;
+}
+
+

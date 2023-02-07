@@ -1,0 +1,232 @@
+﻿.stu-course-pos1 {
+    position: absolute;
+    top: 135px;
+    left: 7%;
+}
+
+.stu-course-pos2 {
+    position: absolute;
+    top: 135px;
+    left: 13%;
+}
+
+.stu-course-pos3 {
+    position: absolute;
+    top: 135px;
+    left: 27%;
+}
+
+.stu-course-pos4 {
+    position: absolute;
+    top: 135px;
+    left: 31%;
+}
+
+.stu-course-pos5 {
+    position: absolute;
+    top: 135px;
+    left:48%;
+}
+
+.stu-course-pos6 {
+    position: absolute;
+    top: 135px;
+    left: 52%;
+}
+.stu-course-pos7 {
+    position: absolute;
+    top: 135px;
+    left: 65%;
+}
+
+.stu-schedule-pos3 {
+    position: absolute;
+    top: 145px;
+    left: 34%;
+}
+.stu-schedule-pos4 {
+    position: absolute;
+    top: 145px;
+    left: 38%;
+}
+
+.stu-info-pos1{
+    position:absolute;
+    top:315px;
+    left:130px;
+}
+.stu-info-pos2 {
+    position: absolute;
+    top: 714px;
+    left: 250px;
+}
+
+.tea-bulletin-pos1{
+    position:absolute;
+    top:210px;
+    left:1450px;
+    width:100px;
+}
+
+.tea-bulletin-pos2 {
+    position: absolute;
+    top: 500px;
+    left: 70px;
+}
+
+.tea-bulletin-pos3 {
+    position: absolute;
+    top: 545px;
+    left: 50px;
+}
+
+.tea-course-pos1 {
+    position: absolute;
+    top: 210px;
+    left: 1150px;
+    width: 100px;
+}
+
+.aud-audit-pos1 {
+    position: absolute;
+    top: 210px;
+    left: 1350px;
+    width: 100px;
+}
+.aud-audit-pos2 {
+    position: absolute;
+    top: 510px;
+    left: 1350px;
+    width: 100px;
+}
+.adm-info-pos1 {
+    position: absolute;
+    top: 245px;
+    left: 130px;
+}
+
+.adm-info-pos2 {
+    position: absolute;
+    top: 515px;
+    left: 160px;
+}
+
+.adm-schedule-pos1{
+    position: absolute;
+    top: 135px;
+    left: 7%;
+}
+
+.adm-schedule-pos2 {
+    position: absolute;
+    top: 135px;
+    left: 13%;
+}
+.adm-schedule-pos3 {
+    position: absolute;
+    top: 135px;
+    left: 25%;
+}
+.adm-schedule-pos4 {
+    position: absolute;
+    top: 135px;
+    left: 39%;
+}
+
+.adm-schedule-pos5 {
+    position: absolute;
+    top: 135px;
+    left: 43%;
+}
+
+.adm-schedule-pos6 {
+    position: absolute;
+    top: 135px;
+    left: 61%;
+}
+
+.adm-schedule-pos7 {
+    position: absolute;
+    top: 135px;
+    left: 65%;
+}
+
+.adm-schedule-pos8 {
+    position: absolute;
+    top: 135px;
+    left: 80%;
+}
+
+.adm-bulletin-pos2 {
+    position: absolute;
+    top: 135px;
+    left: 10%;
+}
+
+
+.adm-infostu-pos1 {
+    position: absolute;
+    top: 135px;
+    left: 7%;
+}
+
+.adm-infostu-pos2 {
+    position: absolute;
+    top: 135px;
+    left: 12%;
+}
+
+.adm-infostu-pos3 {
+    position: absolute;
+    top: 135px;
+    left: 25%;
+}
+
+.adm-infostu-pos4 {
+    position: absolute;
+    top: 135px;
+    left: 30%;
+}
+
+.adm-infostu-pos5 {
+    position: absolute;
+    top: 135px;
+    left: 43%;
+}
+.adm-infostu-pos6 {
+    position: absolute;
+    top: 135px;
+    left: 47%;
+}
+
+.adm-infostu-pos7 {
+    position: absolute;
+    top: 135px;
+    left: 62%;
+}
+
+.adm-infostu-pos8 {
+    position: absolute;
+    top: 135px;
+    left: 66%;
+}
+
+.adm-infostu-pos9 {
+    position: absolute;
+    top: 135px;
+    left: 82%;
+}
+
+.adm-infostu-pos10 {
+    position: absolute;
+    top: 210px;
+    left: 1300px;
+    width: 100px;
+}
+
+.adm-infostu-pos11 {
+    position: absolute;
+    top: 210px;
+    left: 1400px;
+    width: 100px;
+}

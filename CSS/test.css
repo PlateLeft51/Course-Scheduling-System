@@ -1,0 +1,36 @@
+﻿html, body {
+    margin: 0px;
+    height: 100%;
+
+}
+
+.container {
+    position:absolute;
+    height:100%;
+    width: 300px;
+    background-color: rgba(41, 45, 62, 0.7);
+    color: aliceblue;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.dss {
+    position: absolute;
+    left: 300px;
+    height: 100%;
+    width: calc(100% - 300px);
+    background: #1296db;
+    color: aliceblue;
+    border-radius: 8px;
+
+    margin-bottom: 100px;
+}
+    .c2 {
+        width:100%;
+        text-align: center;
+        height:150px;
+        font-size: 30px;
+        padding-top:50px;
+        margin-bottom: 130px;
+        background: #1296db;
+
+    }

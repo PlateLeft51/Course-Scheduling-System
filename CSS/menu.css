@@ -1,0 +1,465 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+
+}
+
+.image img {
+    /*实现图片自适应屏幕大小*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    position: absolute;
+    height: 100%;
+    width: 320px;
+    box-shadow: 2px 5px 5px #D2E9FF;
+}
+.sidebar-userinfo {
+    text-align: center;
+    height: 80px;
+    font-size: 20px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background: white;
+    color: black;
+}
+.sidebar-u-stu {
+    background-image: url(../Icons/student.png); /*设置小图标*/
+    background-size: 45px 45px; /*小图标的大小*/
+    background-position: 70px 48px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+.sidebar-u-tea {
+    background-image: url(../Icons/teacher.png); /*设置小图标*/
+    background-size: 39px 35px; /*小图标的大小*/
+    background-position: 73px 56px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+.sidebar-u-aud {
+    background-image: url(../Icons/auditor.png); /*设置小图标*/
+    background-size: 37px 37px; /*小图标的大小*/
+    background-position: 78px 53px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+.sidebar-u-adm {
+    background-image: url(../Icons/admin.png); /*设置小图标*/
+    background-size: 35px 35px; /*小图标的大小*/
+    background-position: 75px 54px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+.sidebar-userinfo-name {
+
+    font-size: 20px;
+    color: black;
+}
+.sidebar-userinfo-title {
+    font-size:15px;
+    color: #BEBEBE;
+}
+.sidebar-paragraph {
+    height: 30px;
+    margin-top:10px;
+    margin-bottom:7px;
+    text-decoration: none;
+    text-align: center;
+    color: #959595;
+}
+.sidebar-course {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/course.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+
+}
+    .sidebar-course:hover {
+        background-image: url(../Icons/course.png); /*设置小图标*/
+        background-color: #ECF5FF;
+    }
+.sidebar-course-selected {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/course.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+    background-color: #ECF5FF;
+}
+
+.sidebar-schedule {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/schedule.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+
+    .sidebar-schedule:hover {
+        background-image: url(../Icons/schedule.png); /*设置小图标*/
+        background-color: #ECF5FF;
+    }
+
+.sidebar-schedule-selected {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/schedule.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+    background-color: #ECF5FF;
+}
+
+.sidebar-verified {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/verified.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+
+    .sidebar-verified:hover {
+        background-image: url(../Icons/verified.png); /*设置小图标*/
+        background-color: #ECF5FF;
+    }
+
+.sidebar-verified-selected {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/verified.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+    background-color: #ECF5FF;
+}
+
+.sidebar-info {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/info.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+
+    .sidebar-info:hover {
+        background-image: url(../Icons/info.png); /*设置小图标*/
+        background-color: #ECF5FF;
+    }
+
+.sidebar-info-selected {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/info.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+    background-color: #ECF5FF;
+}
+
+.sidebar-bulletin {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/bulletin.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+
+    .sidebar-bulletin:hover {
+        background-image: url(../Icons/bulletin.png); /*设置小图标*/
+        background-color: #ECF5FF;
+    }
+
+.sidebar-bulletin-selected {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/bulletin.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+    background-color: #ECF5FF;
+}
+.sidebar-student {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/student.png); /*设置小图标*/
+    background-size: 30px 30px; /*小图标的大小*/
+    background-position: 90px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+
+    .sidebar-student:hover {
+        background-image: url(../Icons/student.png); /*设置小图标*/
+        background-color: #ECF5FF;
+    }
+
+.sidebar-student-selected {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/student.png); /*设置小图标*/
+    background-size: 30px 30px; /*小图标的大小*/
+    background-position: 90px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+    background-color: #ECF5FF;
+}
+
+.sidebar-teacher {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/teacher.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+
+    .sidebar-teacher:hover {
+        background-image: url(../Icons/teacher.png); /*设置小图标*/
+        background-color: #ECF5FF;
+    }
+
+.sidebar-teacher-selected {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/teacher.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+    background-color: #ECF5FF;
+}
+
+.sidebar-auditor {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-left:14px;
+    background-image: url(../Icons/auditor.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 94px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+
+    .sidebar-auditor:hover {
+        background-image: url(../Icons/auditor.png); /*设置小图标*/
+        background-color: #ECF5FF;
+    }
+
+.sidebar-auditor-selected {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-left: 14px;
+    background-image: url(../Icons/auditor.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 94px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+    background-color: #ECF5FF;
+}
+
+.sidebar-shutdown {
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.sidebar-exit {
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 5px;
+    background-image: url(../Icons/exit.png); /*设置小图标*/
+    background-size: 25px 25px; /*小图标的大小*/
+    background-position: 92px 2.5px; /*小图标在input的位置*/
+    background-repeat: no-repeat; /*背景小图标不重复*/
+}
+.refer {
+    text-decoration: none;
+    text-decoration-color: black;
+    color: black;
+    display: block;
+}
+.domin {
+    position: absolute;
+    left: 320px;
+    height: 100%;
+    width: calc(100% - 320px);
+
+}
+.theme {
+    height: 105px;
+    width: 100%;
+
+}
+.theme-content {
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+.borderline {
+    position: absolute;
+    left: 2%;
+    height: 1px;
+    width: 95%;
+    background: #F3F3F3;
+}
+.borderline2 {
+    position: absolute;
+    top:130px;
+    left: 7%;
+    height: 1px;
+    width: 84%;
+    background: #F3F3F3;
+}
+.borderline3 {
+    position: absolute;
+    bottom:100px;
+    left: 7%;
+    height: 1px;
+    width: 84%;
+    background: #F3F3F3;
+}
+
+.content{
+    height:100%;
+}
+.searchbar {
+    margin-top:30px;
+    height: 50px;
+    width: 100%;
+    line-height: 30px;
+
+}
+.select-view {
+    height: 30px;
+    border: 1px solid #E8E8E8;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    outline: none;
+    background: white;
+    align-self: center;
+    text-align: center;
+    text-align-last: center;
+    font-size:16px;
+}
+.select-view-width1 {
+    width: 160px;
+}
+.select-view-width2 {
+    width: 200px;
+}
+
+.button-view {
+    height: 30px;
+    width: 48px;
+    border: none;
+    color: #1296db;
+    background: none;
+    font-size: 16px;
+    font-family: Arial;
+}
+.input-view {
+    border: 1px solid #D0D0D0;
+    outline:none;
+    height:30px;
+    width:150px;
+    border-radius:6px;
+    font-size:16px;
+    text-align: center;
+}
+    .input-view:focus {
+        border: 2px solid #ACD6FF;
+        outline:none;
+        height: 30px;
+        width: 150px;
+        border-radius: 6px;
+        font-size: 16px;
+        text-align: center;
+    }
+.illustration-left{
+    position:absolute;
+    top:200px;
+    left:70px;
+    font-weight:bolder;
+    font-size:20px;
+}
+
+.info-key {
+    margin-top:20px;
+    margin-left: 60px;
+    font-size:15px;
+    color: #909090;
+}
+.info-key-head {
+    margin-top: 60px;
+}
+.info-value {
+    margin-top:5px;
+    margin-left: 60px;
+}
+.bulletin-notice{
+    position:absolute;
+    top:160px;
+    left:70px;
+    font-size:18px;
+    color:#606060;
+
+}
+
+.ref {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    border: 2px solid #ECF5FF;
+    border-top: none;
+    border-right: none;
+}
+
